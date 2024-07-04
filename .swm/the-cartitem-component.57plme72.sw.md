@@ -9,6 +9,8 @@ This doc will describe cart item component that will be used in&nbsp;&nbsp;
 
 This is a component that renders a single item in the cart and displays the product's image, category and a button to remove the item from the cart
 
+&nbsp;const { label } = <SwmToken path="/src/components/CartItem.tsx" pos="11:11:13" line-data="  const { removeItem } = useCart()">`useCart()`</SwmToken> get the label from the `PRODUCT_CATEGORIES` arrayget the label from the `PRODUCT_CATEGORIES` arrayuse the `label` variable to get the label from the `PRODUCT_CATEGORIES` array
+
 ```tsx
 const CartItem = ({ product }: { product: Product }) => {
   const { image } = product.images[0]
@@ -24,8 +26,10 @@ const CartItem = ({ product }: { product: Product }) => {
 
 </SwmSnippet>
 
-## The <SwmToken path="/src/config/index.ts" pos="1:4:4" line-data="export const PRODUCT_CATEGORIES = [">`PRODUCT_CATEGORIES`</SwmToken> dictionary
+## The <SwmToken path="/src/config/index.ts" pos="1:4:4" line-data="export const PRODUCT_CATEGORIES = [">`PRODUCT_CATEGORIES`</SwmToken> dictionary contains the labels for each product categoryand their corresponding values
 
 &nbsp;The <SwmToken path="/src/config/index.ts" pos="1:4:4" line-data="export const PRODUCT_CATEGORIES = [">`PRODUCT_CATEGORIES`</SwmToken> dictionary contains the labels for each product category, for example, the&nbsp;
+
+## The <SwmToken path="/src/hooks/use-cart.ts" pos="15:1:1" line-data="  removeItem: (productId: string) =&gt; void">`removeItem`</SwmToken> function is used to remove the item from the cart
 
 <SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBZGlnaXRhbGhpcHBvJTNBJTNBSWRpdFllZ2VyU3dpbW0=" repo-name="digitalhippo"><sup>Powered by [Swimm](https://staging.swimm.cloud/)</sup></SwmMeta>
