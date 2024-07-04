@@ -26,9 +26,9 @@ const CartItem = ({ product }: { product: Product }) => {
 
 </SwmSnippet>
 
-## The <SwmToken path="/src/config/index.ts" pos="1:4:4" line-data="export const PRODUCT_CATEGORIES = [">`PRODUCT_CATEGORIES`</SwmToken> dictionary contains the labels for each product categoryand their corresponding values
+## The <SwmToken path="/src/config/index.ts" pos="1:4:4" line-data="export const PRODUCT_CATEGORIES = [">`PRODUCT_CATEGORIES`</SwmToken> dictionary  contains the labels for each product categoryand their corresponding values
 
-&nbsp;The <SwmToken path="/src/config/index.ts" pos="1:4:4" line-data="export const PRODUCT_CATEGORIES = [">`PRODUCT_CATEGORIES`</SwmToken> dictionary contains the labels for each product category, for example, the&nbsp;
+&nbsp;The <SwmToken path="/src/config/index.ts" pos="1:4:4" line-data="export const PRODUCT_CATEGORIES = [">`PRODUCT_CATEGORIES`</SwmToken> dictionary also contains the labels for each product category, for example, the UI_Kits is&nbsp;
 
 ## The <SwmToken path="/src/hooks/use-cart.ts" pos="15:1:1" line-data="  removeItem: (productId: string) =&gt; void">`removeItem`</SwmToken> function is used to remove the item from the cart
 
